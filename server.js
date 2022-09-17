@@ -12,3 +12,5 @@ server.listen(3000, function() {
     console.log('server is running at 3000')
 });
 // and type "node server" on terminal
+
+console.log(__filename)
