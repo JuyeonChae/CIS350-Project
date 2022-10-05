@@ -12,6 +12,7 @@ Sequence Diagram
 ![Screenshot 2022-10-05 103054](https://user-images.githubusercontent.com/97745229/194086644-cedc9c86-939c-48d6-8492-03e52b51c26e.png)
 
 UML Diagram
+
 ![Screenshot 2022-10-05 103035](https://user-images.githubusercontent.com/97745229/194086664-d00acecb-fe18-47f1-87c4-ebc0e97e4cfc.png)
 
 Use Case
