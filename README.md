@@ -8,14 +8,20 @@ Mia Endo
 
 Nik Tofilovski
 
+##Abstract
+
+The popularity of apps such as TikTok, Instagram, and YouTube caused the popularity of cooking new recipes in your home to skyrocket. Many of these recipes are shared via short videos, typically less than one minute long. These short videos are more accesible for amerature chefs to approach, as they are less intimidating. However, these short videos can be fairly vague, and might ommit some key deatils that a new cook might overlook. Or, there might be a difference in the level of understanding between the cook and the person who posted the original video. Our app allows for the user to choose what type of dish they would like to cook, then it will pair them with another person who also wants to cook said dish. The two users can cook simultaneously on a video call, during which they can share ideas, methods, and other advice with each other.
 
 ## Introduction
 
-Our app allows two users to connect and cook with one another via video call. A key feature of our app will allow an individual to search for a specific food they would like to cook, then pair them up with another user that would like to cook that same meal.
-
+Our mobile application will randomly pair two users who select the same recipe and allows for them to cook together. Users will register, create a usernae and a password before allowing them to cook. The user will need to be connected to the internet in order to video chat with the other user. Additionally, users will select their language to ensure that their partner speaks the same language as them. All users names will be kept anonymous to others, and are optional when registering. The app is free to use.
 
 
 ## Sequence Diagram, UML Diagram, Use Case, and Architecture 
+
+Architecture
+
+![Screenshot 2022-10-05 103106](https://user-images.githubusercontent.com/97745229/194086607-254ca9cb-367b-4da9-a791-58fb8e245f4a.png)
 
 Sequence Diagram
 
@@ -29,6 +35,3 @@ Use Case
 
 <img width="807" alt="Screen_Shot_2022-10-05_at_10 09 24_AM" src="https://user-images.githubusercontent.com/97745229/194086212-7c3bb9ea-3c34-4140-bbdb-d5c9392ed910.png">
 
-Architecture
-
-![Screenshot 2022-10-05 103106](https://user-images.githubusercontent.com/97745229/194086607-254ca9cb-367b-4da9-a791-58fb8e245f4a.png)
