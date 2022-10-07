@@ -16,24 +16,21 @@ The popularity of apps such as TikTok, Instagram, and YouTube caused the popular
 
 Our mobile application will randomly pair two users who select the same recipe and allows for them to cook together. Users will register, create a usernae and a password before allowing them to cook. The user will need to be connected to the internet in order to video chat with the other user. Additionally, users will select their language to ensure that their partner speaks the same language as them. All users names will be kept anonymous to others, and are optional when registering. The app is free to use.
 
-
-## Sequence Diagram, UML Diagram, Use Case, and Architecture 
-
 ## Architecture
 
 Our app is a mobile app designed specifically for smartphones. The users interface is written using javascript, html, and css. The video calling feature uses Agora SDK.
 
 ![Screenshot 2022-10-05 103106](https://user-images.githubusercontent.com/97745229/194086607-254ca9cb-367b-4da9-a791-58fb8e245f4a.png)
 
-Sequence Diagram
+## Sequence Diagram
 
 ![Screenshot 2022-10-05 103054](https://user-images.githubusercontent.com/97745229/194086644-cedc9c86-939c-48d6-8492-03e52b51c26e.png)
 
-UML Diagram
+## Class Diagram
 
 ![Screenshot 2022-10-05 103035](https://user-images.githubusercontent.com/97745229/194086664-d00acecb-fe18-47f1-87c4-ebc0e97e4cfc.png)
 
-Use Case
+## Use Case
 
 <img width="807" alt="Screen_Shot_2022-10-05_at_10 09 24_AM" src="https://user-images.githubusercontent.com/97745229/194086212-7c3bb9ea-3c34-4140-bbdb-d5c9392ed910.png">
 
