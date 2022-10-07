@@ -27,6 +27,7 @@ Our app is a mobile app designed specifically for smartphones. The users interfa
 ![Screenshot 2022-10-05 103054](https://user-images.githubusercontent.com/97745229/194086644-cedc9c86-939c-48d6-8492-03e52b51c26e.png)
 
 ## Class Diagram
+<img width="755" alt="adfad" src="https://user-images.githubusercontent.com/53513581/194447254-8de8114f-44b4-48ff-b04a-5d6e75db7435.png">
 
 ![Screenshot 2022-10-05 103035](https://user-images.githubusercontent.com/97745229/194086664-d00acecb-fe18-47f1-87c4-ebc0e97e4cfc.png)
 
