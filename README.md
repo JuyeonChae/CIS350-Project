@@ -18,7 +18,7 @@ Our mobile application will randomly pair two users who select the same recipe a
 
 ## Architecture
 
-Our app is a mobile app designed specifically for smartphones. The users interface is written using javascript, html, and css. The video calling feature uses Agora SDK.
+“Pear Cooking” is based on a database server MongoDB. The app’s server is run on the MongoDB cloud collecting data from the users. Since it is developed by using Flutter for front-end and Node.js for server side, PearCooking should be available on both Android and iOS. The users look up for foods they would be cooking, and the server responds with the available partners.
 
 ![Screenshot 2022-10-05 103106](https://user-images.githubusercontent.com/97745229/194086607-254ca9cb-367b-4da9-a791-58fb8e245f4a.png)
 
