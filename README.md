@@ -23,14 +23,16 @@ Our mobile application will randomly pair two users who select the same recipe a
 ![Screenshot 2022-10-05 103106](https://user-images.githubusercontent.com/97745229/194086607-254ca9cb-367b-4da9-a791-58fb8e245f4a.png)
 
 ## Sequence Diagram
+Sequence diagram shows the communication betweeen the user and the server.
 
 ![Screenshot 2022-10-05 103054](https://user-images.githubusercontent.com/97745229/194086644-cedc9c86-939c-48d6-8492-03e52b51c26e.png)
 
 ## Class Diagram
+Class diagram shows the login, chat, settings, and recipe class.
 <img width="755" alt="adfad" src="https://user-images.githubusercontent.com/53513581/194447254-8de8114f-44b4-48ff-b04a-5d6e75db7435.png">
 
 ## Use Case
-
+Use case diagram shows how the app is used from the users perspective.
 <img width="807" alt="Screen_Shot_2022-10-05_at_10 09 24_AM" src="https://user-images.githubusercontent.com/97745229/194086212-7c3bb9ea-3c34-4140-bbdb-d5c9392ed910.png">
 
 ## Future Scope
