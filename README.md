@@ -17,7 +17,14 @@ The popularity of apps such as TikTok, Instagram, and YouTube caused the popular
 Our mobile application will randomly pair two users who select the same recipe and allows for them to cook together. Users will register, create a usernae and a password before allowing them to cook. The user will need to be connected to the internet in order to video chat with the other user. Additionally, users will select their language to ensure that their partner speaks the same language as them. All users names will be kept anonymous to others, and are optional when registering. The app is free to use.
 
 ## 3. Architectural Design
-“Pear Cooking” is based on a database server MongoDB. The app’s server is run on the MongoDB cloud collecting data from the users. Since it is developed by using Flutter for front-end and Node.js for server side, Pear Cooking should be available on both Android and iOS. The users look up for foods they would be cooking, and the server responds with the available partners. 
+“Pear Cooking” is based on a database server MongoDB. The app’s server is run on the MongoDB cloud collecting data from the users. Since it is developed by using Flutter for front-end and Node.js for server side, PearCooking should be available on both Android and iOS. The users look up for foods they would be cooking, and the server responds with the available partners. 
+
+
+![Screenshot 2022-10-05 103106](https://user-images.githubusercontent.com/97745229/194086607-254ca9cb-367b-4da9-a791-58fb8e245f4a.png)
+Figure 1: Architecture of the PairCooking App
+
+
+
 
 ## 3.1 Class Diagram
 
@@ -25,11 +32,8 @@ Our mobile application will randomly pair two users who select the same recipe a
 
 
 
-## Sequence Diagram, UML Diagram, Use Case, and Architecture 
+## Sequence Diagram, UML Diagram, and Use Case 
 
-Architecture
-
-![Screenshot 2022-10-05 103106](https://user-images.githubusercontent.com/97745229/194086607-254ca9cb-367b-4da9-a791-58fb8e245f4a.png)
 
 Sequence Diagram
 
