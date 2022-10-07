@@ -35,6 +35,29 @@ Class diagram shows the login, chat, settings, and recipe class.
 Use case diagram shows how the app is used from the users perspective.
 <img width="807" alt="Screen_Shot_2022-10-05_at_10 09 24_AM" src="https://user-images.githubusercontent.com/97745229/194086212-7c3bb9ea-3c34-4140-bbdb-d5c9392ed910.png">
 
+## Application Screens
+
+
+Log in Screen:
+
+![Log in screen](https://user-images.githubusercontent.com/97745229/194469490-6025fb36-6bd5-4e0b-ba65-c0d361f7bdc3.png)
+
+
+Registration Screen:
+
+<img width="385" alt="registration screen" src="https://user-images.githubusercontent.com/97745229/194469510-c8f7a398-43e4-49b4-a553-20d4c09d5a23.png">
+
+
+Home Screen:
+
+![Home Screen](https://user-images.githubusercontent.com/97745229/194469171-b60afabe-e11c-4a98-8afa-9bb415070dce.jpg)
+
+
+Profile Screen:
+
+<img width="320" alt="chiikawa_profile" src="https://user-images.githubusercontent.com/97745229/194469547-b99cb36a-0bbb-44e2-8f8d-8c96865a4527.png">
+
+
 ## Future Scope
 Some of our future ideas include a way for users to post their own recipes. Also, an feature that allows for users to rate provided recipes so other users know which recipes they should cook next. Additionally, it could be useful to allow users to text chat the person they are cooking with before the video chat starts, for the well being of both parties.
 
