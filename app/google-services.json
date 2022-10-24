@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "217684706206",
+    "project_id": "cis-350-project-2e952",
+    "storage_bucket": "cis-350-project-2e952.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217684706206:android:8e33e8b261e654cf4ecc8f",
+        "android_client_info": {
+          "package_name": "com.example.paircooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217684706206-vecc928fq2mg8spv4n7krvlk4j1nstn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEXQIVjLSX5VMJ7hAyLxjUTgDrcvng1a4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217684706206-vecc928fq2mg8spv4n7krvlk4j1nstn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
