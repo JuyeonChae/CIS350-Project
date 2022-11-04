@@ -3,6 +3,10 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:page_transition/page_transition.dart';
+import '../../home_screen/home_screen_widget.dart';
+import '../../login/login_widget.dart';
+import '../../signup/signup_widget.dart';
+import '../../startup/startup_widget.dart';
 import '../flutter_flow_theme.dart';
 
 import '../../index.dart';
