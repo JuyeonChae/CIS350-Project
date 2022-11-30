@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "394901933840",
+    "project_id": "paircooking-c8839",
+    "storage_bucket": "paircooking-c8839.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394901933840:android:12f75916b5e84c172e1f95",
+        "android_client_info": {
+          "package_name": "com.example.pair_cooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394901933840-es14onatcip6ghaifm3m982bmpfk4060.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsbYJaouGkkDmao20Ocaf45ZDpJ1JRnHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394901933840-es14onatcip6ghaifm3m982bmpfk4060.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
