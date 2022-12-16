@@ -1,14 +1,17 @@
-import '../components/back_button_container_widget.dart';
-import '../flutter_flow/flutter_flow_theme.dart';
-import '../flutter_flow/flutter_flow_util.dart';
-import '../flutter_flow/flutter_flow_widgets.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
+import 'components/back_button_container_widget.dart';
+import 'flutter_flow/flutter_flow_theme.dart';
+import 'flutter_flow/flutter_flow_util.dart';
+import 'flutter_flow/flutter_flow_widgets.dart';
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'auth.dart';
 
 class LoginWidget extends StatefulWidget {
-  const LoginWidget({Key? key}) : super(key: key);
-
+  LoginWidget({Key? key}) : super(key: key);
+  final User? user = Auth().currentUser;
   @override
   _LoginWidgetState createState() => _LoginWidgetState();
 }

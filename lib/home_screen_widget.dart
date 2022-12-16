@@ -2,6 +2,7 @@ import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
+import '../flutter_flow/flutter_flow_widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomeScreenWidget extends StatefulWidget {
@@ -74,15 +75,15 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                                   alignment: AlignmentDirectional(0, 0),
                                   child: SelectionArea(
                                       child: Text(
-                                    'Home',
-                                    style: FlutterFlowTheme.of(context)
-                                        .bodyText1
-                                        .override(
+                                        'Home',
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyText1
+                                            .override(
                                           fontFamily: 'Poppins',
                                           color: Color(0xFF2E5A1A),
                                           fontSize: 30,
                                         ),
-                                  )),
+                                      )),
                                 ),
                               ],
                             ),
@@ -92,7 +93,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                           child: GridView(
                             padding: EdgeInsets.zero,
                             gridDelegate:
-                                SliverGridDelegateWithFixedCrossAxisCount(
+                            SliverGridDelegateWithFixedCrossAxisCount(
                               crossAxisCount: 2,
                               crossAxisSpacing: 5,
                               mainAxisSpacing: 50,
@@ -129,8 +130,8 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                                       color: Colors.black,
                                       size: 45,
                                     ),
-                                    onPressed: () {
-                                      print('IconButton pressed ...');
+                                    onPressed: () async {
+                                      context.pushNamed('JoinScreen');
                                     },
                                   ),
                                 ),
@@ -310,13 +311,51 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                 ),
               ),
               Align(
+                alignment: AlignmentDirectional(-0.85, -0.9),
+                child: Container(
+                  width: 100,
+                  height: 50,
+                  decoration: BoxDecoration(),
+                  child: FFButtonWidget(
+                    onPressed: () async {
+                      context.pushNamed('HomeScreen');
+                    },
+                    text: '←',
+                    options: FFButtonOptions(
+                      width: 130,
+                      height: 40,
+                      color: Color(0xFF068227),
+                      textStyle:
+                      FlutterFlowTheme.of(context).subtitle2.override(
+                        fontFamily: 'Poppins',
+                        color: Colors.white,
+                        fontSize: 40,
+                        fontWeight: FontWeight.w900,
+                      ),
+                      borderSide: BorderSide(
+                        color: Colors.transparent,
+                        width: 1,
+                      ),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                  ),
+                ),
+              ),
+              Align(
+                alignment: AlignmentDirectional(0, 0),
+                child: Column(
+                  mainAxisSize: MainAxisSize.max,
+                  children: [],
+                ),
+              ),
+              Align(
                 alignment: AlignmentDirectional(-0.45, -0.05),
                 child: Text(
                   'Find Partner',
                   style: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'Poppins',
-                        color: Color(0xFF292929),
-                      ),
+                    fontFamily: 'Poppins',
+                    color: Color(0xFF292929),
+                  ),
                 ),
               ),
               Align(
@@ -324,9 +363,9 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                 child: Text(
                   'Past Recipes',
                   style: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'Poppins',
-                        color: Color(0xFF292929),
-                      ),
+                    fontFamily: 'Poppins',
+                    color: Color(0xFF292929),
+                  ),
                 ),
               ),
               Align(
@@ -334,20 +373,20 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                 child: Text(
                   'Settings',
                   style: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'Poppins',
-                        color: Color(0xFF292929),
-                      ),
+                    fontFamily: 'Poppins',
+                    color: Color(0xFF292929),
+                  ),
                 ),
               ),
               Align(
                 alignment: AlignmentDirectional(0.47, 0.52),
                 child: Text(
-                  'Friend Requests',
+                  'Chat with Friends',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'Poppins',
-                        color: Color(0xFF292929),
-                      ),
+                    fontFamily: 'Poppins',
+                    color: Color(0xFF292929),
+                  ),
                 ),
               ),
               Align(
@@ -356,9 +395,9 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                   'Past Partners',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'Poppins',
-                        color: Color(0xFF292929),
-                      ),
+                    fontFamily: 'Poppins',
+                    color: Color(0xFF292929),
+                  ),
                 ),
               ),
               Align(
@@ -367,9 +406,9 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                   'My Profile',
                   textAlign: TextAlign.center,
                   style: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'Poppins',
-                        color: Color(0xFF292929),
-                      ),
+                    fontFamily: 'Poppins',
+                    color: Color(0xFF292929),
+                  ),
                 ),
               ),
             ],

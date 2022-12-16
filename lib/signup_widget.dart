@@ -1,12 +1,12 @@
-import '../components/back_button_container_widget.dart';
-import '../components/email_container_widget.dart';
-import '../components/name_container_widget.dart';
-import '../components/password_container_widget.dart';
-import '../components/textfield_container_widget.dart';
-import '../components/verify_password_container_widget.dart';
-import '../flutter_flow/flutter_flow_theme.dart';
-import '../flutter_flow/flutter_flow_util.dart';
-import '../flutter_flow/flutter_flow_widgets.dart';
+import 'components/back_button_container_widget.dart';
+import 'components/email_container_widget.dart';
+import 'components/name_container_widget.dart';
+import 'components/password_container_widget.dart';
+import 'components/textfield_container_widget.dart';
+import 'components/verify_password_container_widget.dart';
+import 'flutter_flow/flutter_flow_theme.dart';
+import 'flutter_flow/flutter_flow_util.dart';
+import 'flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
