@@ -1,5 +1,5 @@
 import 'dart:async';
-
+import '../flutter_flow_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:page_transition/page_transition.dart';
@@ -7,14 +7,13 @@ import '../../home_screen/home_screen_widget.dart';
 import '../../login/login_widget.dart';
 import '../../signup/signup_widget.dart';
 import '../../startup/startup_widget.dart';
+import '../../join_screen.dart';
 import '../flutter_flow_theme.dart';
-
 import '../../index.dart';
 import '../../main.dart';
 import '../lat_lng.dart';
 import '../place.dart';
 import 'serialization_util.dart';
-
 export 'package:go_router/go_router.dart';
 export 'serialization_util.dart';
 
@@ -33,20 +32,14 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       initialLocation: '/',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
-<<<<<<< HEAD
-      errorBuilder: (context, _) => HomeScreenWidget(),
-=======
       errorBuilder: (context, _) => StartupWidget(),
->>>>>>> 009a0dae447c775698358214c17b5a312361f4af
+      //errorBuilder: (context, _) => StartupWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-<<<<<<< HEAD
           builder: (context, _) => StartupWidget(),
-=======
-          builder: (context, _) => HomeScreenWidget(),
->>>>>>> 009a0dae447c775698358214c17b5a312361f4af
+          //builder: (context, _) => HomeScreenWidget(),
           routes: [
             FFRoute(
               name: 'Startup',
@@ -67,16 +60,12 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               name: 'HomeScreen',
               path: 'homeScreen',
               builder: (context, params) => HomeScreenWidget(),
-<<<<<<< HEAD
-            )
-=======
             ),
             FFRoute( //FOR JOIN SCREEN
               name: 'JoinScreen',
               path: 'joinScreen',
-              builder: (context, params) => SignupWidget(),
-            ),
->>>>>>> 009a0dae447c775698358214c17b5a312361f4af
+              builder: (context, params) => JoinScreen(onCreateMeetingButtonPressed: () {  }, onJoinMeetingButtonPressed: () {  }, onMeetingIdChanged: (String ) {  },),
+            )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ).toRoute(appStateNotifier),
       ],

@@ -1,10 +1,7 @@
 import 'package:flutter/gestures.dart';
-<<<<<<< HEAD
-=======
 import 'api.dart';
 import 'join_screen.dart';
 import 'meeting_screen.dart';
->>>>>>> 009a0dae447c775698358214c17b5a312361f4af
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'flutter_flow/flutter_flow_theme.dart';
@@ -12,10 +9,7 @@ import 'flutter_flow/flutter_flow_util.dart';
 import 'flutter_flow/internationalization.dart';
 import 'flutter_flow/nav/nav.dart';
 import 'index.dart';
-<<<<<<< HEAD
-=======
 import "package:videosdk/videosdk.dart";
->>>>>>> 009a0dae447c775698358214c17b5a312361f4af
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -75,8 +69,6 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
-<<<<<<< HEAD
-=======
 
 
 class VideoSDKQuickStart extends StatefulWidget {
@@ -120,4 +112,3 @@ class _VideoSDKQuickStartState extends State<VideoSDKQuickStart> {
     );
   }
 }
->>>>>>> 009a0dae447c775698358214c17b5a312361f4af

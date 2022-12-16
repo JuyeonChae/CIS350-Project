@@ -23,12 +23,12 @@ class _StartUpColumnWidgetState extends State<StartUpColumnWidget>
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset(
-            'assets/images/insert_image_later.jpg',
-            width: 140,
-            height: 140,
-            fit: BoxFit.fitHeight,
-          ),
+          //Image.asset(
+            //'assets/images/PearCookingLogo.jpg',
+            //width: 140,
+            //height: 140,
+            //fit: BoxFit.fitHeight,
+          //),
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(0, 24, 0, 0),
             child: Text(
