@@ -39,7 +39,10 @@
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.INTERNET"/>
+<<<<<<< HEAD
 
+=======
+>>>>>>> d1f79756a24b69ee5ac92f74ece063119c8e0801
 </manifest>
 
 
