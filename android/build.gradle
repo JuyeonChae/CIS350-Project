@@ -29,4 +29,15 @@ subprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+<<<<<<< HEAD
+}
+
+android {
+    //...
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+=======
+>>>>>>> d1f79756a24b69ee5ac92f74ece063119c8e0801
 }
