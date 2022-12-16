@@ -33,7 +33,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       initialLocation: '/',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
-      errorBuilder: (context, _) => HomeScreenWidget(),
+      errorBuilder: (context, _) => StartupWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
@@ -59,7 +59,12 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               name: 'HomeScreen',
               path: 'homeScreen',
               builder: (context, params) => HomeScreenWidget(),
-            )
+            ),
+            FFRoute( //FOR JOIN SCREEN
+              name: 'JoinScreen',
+              path: 'joinScreen',
+              builder: (context, params) => SignupWidget(),
+            ),
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ).toRoute(appStateNotifier),
       ],

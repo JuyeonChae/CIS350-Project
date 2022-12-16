@@ -1,4 +1,7 @@
 import 'package:flutter/gestures.dart';
+import 'api.dart';
+import 'join_screen.dart';
+import 'meeting_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'flutter_flow/flutter_flow_theme.dart';
@@ -6,6 +9,7 @@ import 'flutter_flow/flutter_flow_util.dart';
 import 'flutter_flow/internationalization.dart';
 import 'flutter_flow/nav/nav.dart';
 import 'index.dart';
+import "package:videosdk/videosdk.dart";
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -62,6 +66,49 @@ class _MyAppState extends State<MyApp> {
       themeMode: _themeMode,
       routeInformationParser: _router.routeInformationParser,
       routerDelegate: _router.routerDelegate,
+    );
+  }
+}
+
+
+class VideoSDKQuickStart extends StatefulWidget {
+  const VideoSDKQuickStart({Key? key}) : super(key: key);
+
+  @override
+  State<VideoSDKQuickStart> createState() => _VideoSDKQuickStartState();
+}
+
+class _VideoSDKQuickStartState extends State<VideoSDKQuickStart> {
+  String meetingId = "";
+  bool isMeetingActive = false;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("VideoSDK QuickStart"),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: isMeetingActive
+            ? MeetingScreen(
+                meetingId: meetingId,
+                token: token,
+                leaveMeeting: () {
+                  setState(() => isMeetingActive = false);
+                },
+              )
+            : JoinScreen(
+                onMeetingIdChanged: (value) => meetingId = value,
+                onCreateMeetingButtonPressed: () async {
+                  meetingId = await createMeeting();
+                  setState(() => isMeetingActive = true);
+                },
+                onJoinMeetingButtonPressed: () {
+                  setState(() => isMeetingActive = true);
+                },
+              ),
+      ),
     );
   }
 }
